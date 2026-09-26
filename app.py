@@ -81,7 +81,7 @@ def get_experience_group(years):
     if years <= 2:
         return "Early Experience"
 
-    if years <= 5:
+    if years <= 9:
         return "Mid Experience"
 
     return "Long Experience"
