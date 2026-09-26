@@ -302,22 +302,6 @@ Download:
 survey_results_public.csv
 ```
 
-Place it inside:
-
-```text
-data/raw/
-```
-
-The structure should look like:
-
-```text
-data/
-└── raw/
-    └── survey_results_public.csv
-```
-
-The raw dataset is intentionally excluded from GitHub because it is larger than GitHub's normal file-size limit.
-
 ---
 ## 5. Run the Analysis
 
@@ -325,32 +309,6 @@ Run:
 
 ```bash
 python src/analyze_data.py
-```
-
-The program generates tables such as:
-
-```text
-experience_distribution.csv
-
-ai_usage_by_experience.csv
-
-ai_sentiment_by_experience.csv
-
-ai_tasks_by_experience.csv
-
-top_ides_by_experience.csv
-```
-
-These can be found inside:
-
-```text
-outputs/tables/
-```
-
-Charts are saved inside:
-
-```text
-outputs/charts/
 ```
 
 The tables and charts are used to identify meaningful differences between programming users.
