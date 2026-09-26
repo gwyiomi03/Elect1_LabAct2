@@ -1,0 +1,13 @@
+# Raw dataset
+data/raw/survey_results_public.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# Virtual environment
+venv/
+.venv/
